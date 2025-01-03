@@ -22,6 +22,7 @@ const Page: FC<Props> = (props) => {
         setOpen={setOpen}
         activeItem={activeItem}
       />
+      <Hero/>
     </div>
   )
 }
